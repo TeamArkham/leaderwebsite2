@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Ellen Johnson</title>
+        <link rel="stylesheet" href="./me2.css"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kaushan+Script&family=Poppins:wght@100&display=swap" rel="stylesheet">
+   </head>
+   <body>
+       <section id="banner">
+           <div class="banner-text">
+               <h1>Ellen Johnson</h1>
+               <p>Ellen Johnson Sirleaf a Liberian politician and the 24th President of Liberia from 2006 to 2018</p>
+           <div class="banner-btn">
+               <a href="#"><span></span>Read More</a>
+               <a href="#"><span></span>Find Out</a>
+           </div>
+            </div>
+       </section>
+
+       <div id="sideNav">
+
+        <nav>
+
+            <ul>
+                <li><a href="#">HOME</a> </li>
+                <li><a href="#">HISTORY</a> </li>
+                <li><a href="#">GALLERY</a> </li>
+                <li><a href="#">CONTACTS</a> </li>
+            </ul>
+        </nav>
+       </div>
+       <div id="menuBtn">
+           <img src="images/menu.png" id="menu">
+       </div>
+       <!--Features-->
+
+       <section id="feature">
+           <div class="title-text">
+             <p>HISTORY</p>
+           </div>
+           <div class="feature-box">
+               <div class="features">
+                <h1>Nobel peace Prize</h1>
+                <div class="features-img">
+                    <img src="images/nobel.jpg">
+                <div class="features-desc">
+                    <div class="feature-icon">
+                        <i class="fa fa-shield"></i>
+                    </div>
+                    <div class="feature-text">
+                        <p>She won</p>
+                    </div>
+                   </div>
+              </div>
+              
+             </div>
+             </div>
+       </section>
+
+<!--GALLERY-->
+
+<section id="Gallery">
+    <div class="title-text">
+        <p>GALLERY</p>
+      </div>
+      <div  class="Gallery-box">
+          <div class="single-gallery">
+          <img src="images/liberia.jpg">
+          <div class="overlay"></div>
+                  <div class="gallery-desc">
+              <h3>Ellen Johnson</h3>
+      <hr>
+              <p>First female president in the African continent</p>
+          </div>
+          </div>
+          <div class="single-gallery">
+          <img src="images/nobel.jpg">
+          <div class="overlay"></div>
+          <div class="gallery-desc">
+            <h3>Ellen Johnson</h3>
+    <hr>
+            <p>First female president in the African continent</p>
+        </div>
+          </div>
+          <div class="single-gallery">
+          <img src="images/background.jpg">
+          <div class="overlay"></div>
+          <div class="gallery-desc">
+            <h3>Ellen Johnson</h3>
+    <hr>
+            <p>First female president in the African continent</p>
+        </div>
+          </div>
+          <div class="single-gallery">
+          <img src="images/download2.jpg">
+          <div class="overlay"></div>
+          <div class="gallery-desc">
+            <h3>Ellen Johnson</h3>
+    <hr>
+            <p>First female president in the African continent</p>
+        </div>
+          </div>
+      </div>
+</section>
+<!--footer-->
+           <section id="footer">
+         <div class="title-text">
+                <p>CONTACTS</p>
+              </div>
+              <div class="footer-row">
+                  <div class="footer-center">
+                      <h1>Get in touch</h1>
+                      <p>#30 abc colony,xyz city in<i class="fa fa-map-marker"></i></p>
+                      <p>ellenjohnson@website.com<i class="fa fa-paper-plane"></i></p>
+                      <p>+234 906 5678<i class="fa fa-phone"></i></p>
+                  </div>
+              </div>
+              <div class="social link">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+              </div>
+           </section>
+
+
+
+
+
+
+
+
+
+       <script>
+           var sideNav = document.getElementById("sideNav")
+           var menuBtn = document.getElementById("menuBtn")
+           var menu = document.getElementById("menu")
+
+           sideNav.style.right="-250px";
+
+           menuBtn.onclick = function(){
+               if(sideNav.style.right=="-250px"){
+                sideNav.style.right ="0"; 
+                }
+               else{
+                sideNav.style.right = "-250px"; 
+               }
+           }
+       </script>
+   </body>
+</html>
